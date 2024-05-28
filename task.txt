@@ -1,0 +1,16 @@
+REST API - JSON
+
+TASKS: 
+
+1. GET /users - List all the users
+
+2. GET /users/1 - Get the user with id = 1
+   GET /users/2 - Get the user with id = 2
+   app.get("/users/:id,()=>{})
+   :id --> is Dynamic value (variable)   
+   
+3. POST /users - Create new user
+
+4. PATCH /users/1 - Edit the user with id = 1
+
+5. DELETE /users/1 - DELETE the user with id = 1
